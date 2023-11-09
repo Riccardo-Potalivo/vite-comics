@@ -1,8 +1,8 @@
 <template>
     <header>
-        <nav class="container d-flex align-items-center justify-content-between">
+        <nav class="container d-flex align-items-center justify-content-between py-3">
             <a class="navbar-brand" href="#">
-                <img src="../assets/img/dc-logo.png" width="30" height="30" alt="">
+                <img src="../assets/img/dc-logo.png" alt="logo">
             </a>
             <ul class="nav justify-content-end">
               <li class="nav-item">
@@ -40,5 +40,11 @@
 </script>
 
 <style lang="scss" scoped>
+  @use '../assets/style/partials/variables' as *;
+
+  nav img
+  {
+    width: 80px;
+  }
 
 </style>
