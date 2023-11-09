@@ -1,13 +1,12 @@
 <template>
-  <HeaderComponent/>
+    <nav>
+
+    </nav>
 </template>
 
 <script>
-  import HeaderComponent from './components/HeaderComponent.vue';
   export default {
-    components: {
-      HeaderComponent,
-    },
+    name: 'HeaderComponent',
     data(){
       return {
 
