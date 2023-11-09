@@ -55,16 +55,9 @@
         padding: 3rem 0;
     }
 
-    a 
-    {
-        text-decoration: none;
-        color: inherit;
-    }
-
     img 
     {
         height: 60px;
     }
-    
 
 </style>
