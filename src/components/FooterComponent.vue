@@ -10,6 +10,7 @@
     import FooterBottom from './footer/FooterBottom.vue';
   export default {
     name: 'FooterComponent',
+    
     components: {
         FooterTop,
         FooterMiddle,
