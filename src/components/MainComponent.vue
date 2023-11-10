@@ -1,14 +1,17 @@
 <template>
-    <main>
-        <section class="container">
-            <h3>-- Content goes here --</h3>
-        </section>
-    </main>
+    <MainJumbotron/>
+    <MainContent/>
 </template>
 
 <script>
+  import MainJumbotron from './main/MainJumbotron.vue';
+  import MainContent from './main/MainContent.vue';
   export default {
     name: 'MainComponent',
+    components: {
+      MainJumbotron,
+      MainContent
+    },
     data(){
       return {
 
@@ -24,13 +27,6 @@
 </script>
 
 <style lang="scss" scoped>
-    @use '../assets/style/partials/variables' as *;
-    
-    main
-    {
-        background-color: $bg-main;
-        color: $white;
-        padding: 40px 0;
-    }
+  @use '../assets/style/partials/variables' as *;
 
 </style>

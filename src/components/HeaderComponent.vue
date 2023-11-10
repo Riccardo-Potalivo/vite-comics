@@ -18,7 +18,7 @@
 </template>
 
 <script>
-  import {navEl} from './header/data.js'
+  import {navEl} from '../data/data.js'
   export default {
     name: 'HeaderComponent',
     data(){
