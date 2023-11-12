@@ -18,10 +18,12 @@
 </template>
 
 <script>
-  import {navEl} from '../data/data.js'
+  import {navEl} from '../data/data.js';
+  // import {obj} from '../data/data.js';
   export default {
     name: 'HeaderComponent',
     data(){
+      // console.log(obj)
       return {
         navEl: navEl
 
