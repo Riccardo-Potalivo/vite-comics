@@ -1,35 +1,37 @@
 <template>
     <section>
-        <div class="container d-flex justify-content-around">
-            <div class="d-flex align-items-center gap-3">
-                <div class="img_box">
-                    <img src="../../assets/img/buy-comics-digital-comics.png" alt="comics-digital">
+        <div class="container">
+            <div class="container row justify-content-around    gy-4">
+                <div class="col-12 col-md-auto center-block d-flex justify-content-center align-items-center gap-3">
+                    <div class="img_box">
+                        <img src="../../assets/img/buy-comics-digital-comics.png" alt="comics-digital">
+                    </div>
+                    <a href="#">DIGITAL COMICS</a>
                 </div>
-                <a href="#">DIGITAL COMICS</a>
-            </div>
-            <div class="d-flex align-items-center gap-3">
-                <div class="img_box">
-                    <img src="../../assets/img/buy-comics-merchandise.png" alt="comics-merchandise">
+                <div class="col-12 col-md-auto d-flex justify-content-center align-items-center gap-3">
+                    <div class="img_box">
+                        <img src="../../assets/img/buy-comics-merchandise.png" alt="comics-merchandise">
+                    </div>
+                    <a href="#">DC MERCHANDISE</a>
                 </div>
-                <a href="#">DC MERCHANDISE</a>
-            </div>
-            <div class="d-flex align-items-center gap-3">
-                <div class="img_box">
-                    <img src="../../assets/img/buy-comics-subscriptions.png" alt="comics-subscriptions">
+                <div class="col-12 col-md-auto  d-flex justify-content-center align-items-center gap-3">
+                    <div class="img_box">
+                        <img src="../../assets/img/buy-comics-subscriptions.png" alt="comics-subscriptions">
+                    </div>
+                    <a href="#">SUBSCRIPTION</a>
                 </div>
-                <a href="#">SUBSCRIPTION</a>
-            </div>
-            <div class="d-flex align-items-center gap-3">
-                <div class="img_box">
-                    <img src="../../assets/img/buy-comics-shop-locator.png" alt="shop-locator">
+                <div class="col-12 col-md-auto  d-flex justify-content-center align-items-center gap-3">
+                    <div class="img_box">
+                        <img src="../../assets/img/buy-comics-shop-locator.png" alt="shop-locator">
+                    </div>
+                    <a href="#">COMIC SHOP LOCATOR</a>
                 </div>
-                <a href="#">COMIC SHOP LOCATOR</a>
-            </div>
-            <div class="d-flex align-items-center gap-3">
-                <div class="img_box">
-                    <img src="../../assets/img/buy-dc-power-visa.svg" alt="shop-locator">
+                <div class="col-12 col-md-auto  d-flex justify-content-center align-items-center gap-3">
+                    <div class="img_box">
+                        <img src="../../assets/img/buy-dc-power-visa.svg" alt="shop-locator">
+                    </div>
+                    <a href="#">DC POWER VISA</a>
                 </div>
-                <a href="#">DC POWER VISA</a>
             </div>
         </div>
     </section>
