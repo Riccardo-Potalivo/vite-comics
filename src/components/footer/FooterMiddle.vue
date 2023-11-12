@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container position-relative">
+        <div class="container">
             <div class="row">
 
               <!-- 1 column -->
@@ -53,7 +53,6 @@
                 </ul>
               </div>
             </div>
-            <img src="../../assets/img/dc-logo-bg.png" alt="">
           </div>
     </section>
 </template>
@@ -85,9 +84,18 @@
   {
     background-image: url('../../assets/img/footer-bg.jpg');
     background-size: cover;
-    padding: 3rem 0;
     color: $white;
     overflow: hidden;
+  }
+  
+  .container
+  {
+    position: relative;
+    padding: 3rem 0;
+    background-image: url('../../assets/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
   }
       
   a 
